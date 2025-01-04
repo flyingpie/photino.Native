@@ -1,3 +1,13 @@
+# (Temporary) Note about webkit 4.1
+
+Note that this branch only builds Linux x64 atm.
+
+Build the package from a Docker container, makes it easier to deal with the dependencies:
+
+```
+./docker-build.sh
+```
+
 Hello Photino Community! We have a new poll question, regarding where and how you use Photino:
 
 [PHOTINO USAGE POLL](https://github.com/tryphotino/photino.NET/discussions/172)
