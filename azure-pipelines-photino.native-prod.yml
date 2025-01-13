@@ -5,9 +5,9 @@ trigger:
     - master
 
 variables:
-    major: 3
-    minor: 2
-    patch: $[counter(variables['minor'], 0)] #this will reset when we bump minor
+    major: 4
+    minor: 0
+    patch: "0-pre2"
     buildConfiguration: "Release"
 
 jobs:
