@@ -1,5 +1,5 @@
 // For this to build on WSL (Ubuntu 18.04) you need to:
-//  sudo apt-get install libgtk-3-dev libwebkit2gtk-4.0-dev
+//  sudo apt-get install libgtk-3-dev libwebkit2gtk-4.1-dev
 #ifdef __linux__
 #include "Photino.h"
 #include "Photino.Dialog.h"

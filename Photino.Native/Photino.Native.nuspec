@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
-    <id>Photino.Native</id>
+    <id>Flyingpie.Photino.Native</id>
     <version>$version$</version>
     <title>Photino</title>
     <authors>TryPhotino</authors>
@@ -13,17 +13,21 @@
     <tags>native</tags>
   </metadata>
   <files>
-    <file src="x64/Photino.Native.dll" target="runtimes\win-x64\native\Photino.Native.dll" />
-    <file src="x64/WebView2Loader.dll" target="runtimes\win-x64\native\WebView2Loader.dll" />
-    
-	  <file src="arm64/Photino.Native.dll" target="runtimes\win-arm64\native\Photino.Native.dll" />
-    <file src="arm64/WebView2Loader.dll" target="runtimes\win-arm64\native\WebView2Loader.dll" />
-	
-    <file src="x64/Photino.Native.so" target="./runtimes/linux-x64/native/Photino.Native.so" />
-   
-    <file src="arm64/Photino.Native.so" target="./runtimes/linux-arm64/native/Photino.Native.so" />
-   
-    <file src="x64/Photino.Native.dylib" target="./runtimes/osx-x64/native/Photino.Native.dylib" />
-    <file src="arm64/Photino.Native.dylib" target="./runtimes/osx-arm64/native/Photino.Native.dylib" />
+
+    <!-- Win -->
+    <file src="../lib/win-x64/native/Photino.Native.dll"      target="runtimes/win-x64/native/Photino.Native.dll" />
+    <file src="../lib/win-x64/native/WebView2Loader.dll"      target="runtimes/win-x64/native/WebView2Loader.dll" />
+
+    <file src="../lib/win-arm64/native/Photino.Native.dll"    target="runtimes/win-arm64/native/Photino.Native.dll" />
+    <file src="../lib/win-arm64/native/WebView2Loader.dll"    target="runtimes/win-arm64/native/WebView2Loader.dll" />
+
+    <!-- Linux -->
+    <file src="../lib/linux-x64/native/Photino.Native.so"     target="runtimes/linux-x64/native/Photino.Native.so" />
+    <file src="../lib/linux-arm64/native/Photino.Native.so"   target="runtimes/linux-arm64/native/Photino.Native.so" />
+
+    <!-- Mac -->
+    <file src="../lib/osx-x64/native/Photino.Native.dylib"    target="runtimes/osx-x64/native/Photino.Native.dylib" />
+    <file src="../lib/osx-arm64/native/Photino.Native.dylib"  target="runtimes/osx-arm64/native/Photino.Native.dylib" />
+
   </files>
 </package>

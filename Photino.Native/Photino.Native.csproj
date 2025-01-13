@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageVersion>4.0.0-pre2</PackageVersion>
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<NuspecFile>Photino.Native.nuspec</NuspecFile>
+		<NuspecProperties>version=$(PackageVersion);configuration=$(Configuration);targetframework=$(TargetFramework)</NuspecProperties>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+		<OutputType>Library</OutputType>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+</Project>
